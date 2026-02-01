@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
             };
             
             // Create mailto link with form data
-            const mailtoLink = `mailto:atharvabhusari2@gmail.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent('Name: ' + formData.name + '\nEmail: ' + formData.email + '\n\nMessage:\n' + formData.message)}`;
+            const mailtoLink = `mailto:atharvabhusari99@gmail.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent('Name: ' + formData.name + '\nEmail: ' + formData.email + '\n\nMessage:\n' + formData.message)}`;
             
             // Open default mail client
             window.location.href = mailtoLink;
